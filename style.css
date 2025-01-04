@@ -1,0 +1,93 @@
+.gradient{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: linear-gradient(red, yellow);
+}
+
+
+.gradient2{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: linear-gradient(to right red, yellow);
+}
+
+
+.gradient3{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: linear-gradient(top right red, yellow);
+}
+
+
+.gradient4{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: linear-gradient(90deg, red, yellow);
+}
+
+.gradient5{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: linear-gradient(lime, red, yellow);
+}
+
+.gradient6{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: linear-gradient(red, yellow 30%, lime 70%);
+}
+
+
+.gradient7{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: repeating-linear-gradient(black, yellow 40%, lime 50%);
+}
+
+
+
+.gradient8{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: radial-gradient(red, yellow, lime);
+}
+
+
+.gradient9{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: radial-gradient(ellipse red, yellow, lime)
+}
+
+.gradient10{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: radial-gradient(circle farthest-side at left bottom red, yellow, lime);
+}
+
+
+.gradient11{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: repeating-radial-gradient(black, white 10%, lime 20%);
+}
+
+
+.gradient12{
+    width: 600px;
+    height: 400px;
+    background: red;
+    background: url(images/cat.jpeg), no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(images/cat.jpeg);
+}
